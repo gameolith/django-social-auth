@@ -14,7 +14,7 @@ from social_auth.backends.exceptions import AuthFailed, AuthMissingParameter
 
 
 # BrowserID verification server
-BROWSER_ID_SERVER = 'https://browserid.org/verify'
+BROWSER_ID_SERVER = 'https://verifier.login.persona.org/verify'
 
 
 class BrowserIDBackend(SocialAuthBackend):
